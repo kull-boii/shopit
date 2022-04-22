@@ -39,6 +39,19 @@ const data = {
       numReviews: 10,
       description: "high quality pant",
     },
+    {
+      name: "Adidas slim pant",
+      slug: "Adidas-slim-pant",
+      category: "Pants",
+      image:
+        "https://raw.githubusercontent.com/basir/mern-amazona/master/frontend/public/images/p3.jpg",
+      price: 340,
+      countInStock: 2,
+      brand: "Adidas",
+      rating: 3.5,
+      numReviews: 12,
+      description: "high quality pant",
+    },
   ],
 };
 
