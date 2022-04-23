@@ -46,7 +46,7 @@ const data = {
       image:
         "https://raw.githubusercontent.com/basir/mern-amazona/master/frontend/public/images/p3.jpg",
       price: 340,
-      countInStock: 2,
+      countInStock: 0,
       brand: "Adidas",
       rating: 3.5,
       numReviews: 12,

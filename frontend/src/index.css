@@ -44,3 +44,9 @@ main{
 .rating span{
   color: rgb(244, 185, 8);
 }
+
+.img-large{
+  max-width: 100%;
+  
+}
+

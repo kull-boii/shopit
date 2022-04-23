@@ -1,6 +1,7 @@
 import { get } from "axios";
 import { useEffect, useReducer } from "react";
 import { Col, Row } from "react-bootstrap";
+import { Helmet } from "react-helmet-async";
 import Product from "./Product";
 
 const reducer = (state, action) => {
@@ -43,6 +44,9 @@ const HomeScreen = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>ShopIt</title>
+      </Helmet>
       <h1>Featured Products</h1>
       <div className="products">
         {loading ? (
